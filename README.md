@@ -24,7 +24,7 @@ This project is a simple web page that allows the user to input text or a link a
 
    Or
 
-1. Acces the link:``
+1. Acces the link:`https://gabmajeau.github.io/QRCode-Generator/`
 
 ## 🗂️ Project Structure
 
