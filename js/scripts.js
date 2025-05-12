@@ -10,7 +10,7 @@ function generateQrCode() {
 
     if (!qrCodeInputValue) return;
 
-    qrCodeBtn.innerText = "Gerando código...";
+    qrCodeBtn.innerText = "Generating QR Code...";
 
     qrCodeImg.src= `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example${qrCodeInputValue}`;
 
@@ -37,7 +37,7 @@ qrCodeInput.addEventListener("keyup", () => {
 
 if(!qrCodeInput.value) {
         container.classList.remove("active");
-        qrCodeBtn.innerText ="Gerar QR Code";
+        qrCodeBtn.innerText ="Generate QR Code";
 }
 
 })
