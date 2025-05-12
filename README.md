@@ -16,6 +16,10 @@ This project is a simple web page that allows the user to input text or a link a
 - JavaScript
 - QR Code generation API `goqr.me`
 
+### 📸 Demo
+
+![Project demo](./visual.gif)
+
 ## 🚀 How to Use
 
 1. Open the `index.html` page in any browser.
