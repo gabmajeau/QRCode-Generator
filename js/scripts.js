@@ -12,7 +12,7 @@ function generateQrCode() {
 
     qrCodeBtn.innerText = "Generating QR Code...";
 
-    qrCodeImg.src= `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example${qrCodeInputValue}`;
+    qrCodeImg.src= `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrCodeInputValue}`;
 
     qrCodeImg.addEventListener("load", () => {
         container.classList.add("active");
